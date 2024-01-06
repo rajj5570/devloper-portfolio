@@ -10,24 +10,25 @@ body {
   background: #fd6e0a;
   border: 0;
   font-size: 20px;
-font-weight: 700;
-padding: 15px 30px;
+  font-weight: 700;
+  padding: 15px 30px;
+  color: #FFF8F3;
 }
 /* nav style start */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 150px;
 }
 .nav-title {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
 }
-nav>ul {
+nav > ul {
   display: flex;
-align-items: center;
-  
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -36,4 +37,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header style starts */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
 }
